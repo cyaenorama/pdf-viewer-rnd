@@ -1,0 +1,36 @@
+#thumbnailView,
+#outlineView,
+#attachmentsView,
+#layersView {
+  width: calc(100% - 1px);
+}
+
+#thumbnailView {
+  width: calc(100% - 1px);
+}
+
+.thumbnailSelectionRing {
+  padding: 1px;
+}
+
+/*  */
+
+#context-menu,
+#dictionary-lookup {
+  display: none;
+  position: fixed;
+  z-index: 999999;
+}
+
+#context-menu > .menu-option-container {
+  width: 15rem !important;
+  font-size: 0.8rem !important;
+}
+
+#dictionary-lookup {
+  width: 15rem !important;
+}
+
+#dictionary-lookup .card-text {
+  font-size: 0.8rem !important;
+}

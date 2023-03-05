@@ -1,0 +1,15 @@
+{
+  "name": "pdf-viewer-rnd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "Sayan Das",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
